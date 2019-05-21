@@ -2605,30 +2605,89 @@ body {
     -webkit-flex-basis: initial !important;
   }
 }
-.cid-rr7eX4lRLf {
+.cid-rr7nOiSreM {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rr7eX4lRLf h3 {
+.cid-rr7nOiSreM h3 {
   text-align: center;
-}
-.cid-rr7eX4lRLf .mbr-section-subtitle {
-  color: #767676;
   font-weight: 300;
 }
-.cid-rr7eX4lRLf .mbr-content-text {
+.cid-rr7nOiSreM .progress {
+  width: 100%;
+}
+.cid-rr7nOiSreM .title-wrap {
+  display: flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.cid-rr7nOiSreM progress {
+  height: 8px;
+}
+.cid-rr7nOiSreM .progressbar-number {
+  display: inline-block;
+}
+.cid-rr7nOiSreM .progress-primary {
+  background: rgba(206, 206, 206, 0.4);
+  border: none;
+  outline: none;
+}
+.cid-rr7nOiSreM .progress-primary::-webkit-progress-bar {
+  background: rgba(206, 206, 206, 0.4);
+}
+.cid-rr7nOiSreM .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rr7eX4lRLf .panel-item {
-  background: #ffffff;
+.cid-rr7nOiSreM .section-content-title {
+  font-weight: 500;
 }
-.cid-rr7eX4lRLf .card {
-  word-wrap: break-word;
+.cid-rr7nOiSreM .progress_value {
+  position: relative;
 }
-.cid-rr7eX4lRLf .mbr-iconfont {
-  font-size: 80px;
-  color: #149dcc;
+.cid-rr7nOiSreM .progress1 .progressbar-number:before,
+.cid-rr7nOiSreM .progress2 .progressbar-number:before,
+.cid-rr7nOiSreM .progress3 .progressbar-number:before,
+.cid-rr7nOiSreM .progress4 .progressbar-number:before,
+.cid-rr7nOiSreM .progress5 .progressbar-number:before {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+.cid-rr7nOiSreM progress[value]::-webkit-progress-bar {
+  background: rgba(206, 206, 206, 0.4);
+}
+.cid-rr7nOiSreM progress::-webkit-progress-value {
+  background: #149dcc;
+}
+.cid-rr7nOiSreM progress[value]::-moz-progress-bar {
+  background: #149dcc;
+}
+.cid-rr7nOiSreM progress::-ms-fill {
+  background: #149dcc;
+}
+.cid-rr7nOiSreM .progress1 .progressbar-number:before {
+  content: '100';
+}
+.cid-rr7nOiSreM .progress2 .progressbar-number:before {
+  content: '100';
+}
+.cid-rr7nOiSreM .progress3 .progressbar-number:before {
+  content: '100';
+}
+.cid-rr7nOiSreM .progress4 .progressbar-number:before {
+  content: '70';
+}
+.cid-rr7nOiSreM .progress5 .progressbar-number:before {
+  content: '60';
+}
+@media (min-width: 768px) {
+  .cid-rr7nOiSreM .text-elements {
+    padding-right: 3rem;
+  }
+  .cid-rr7nOiSreM .progress_elements {
+    padding-left: 3rem;
+  }
 }
 .cid-rr7j0nntM2 {
   padding-top: 90px;
