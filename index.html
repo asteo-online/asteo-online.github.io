@@ -102,20 +102,33 @@
 
         <div class="row py-2 justify-content-center">
             <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
-                <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="SJ+OQ42rj3eaAf66x/UR4VPqK7jeiS0TCMKXxFodIBL6x0I55qmeeYzMJ2ZTjJ4BkBaOdIfSoVbY0SynYi/49H4G6n6L+GE0V/nXern7bLzrRORxQGy743J4ZlqL4k9t">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Takk - du har ikke bestilt produktet, men vi gir deg beskjed straks den er på lager. Du får ikke tilsendt produktet automatisk, men vi sier fra til deg når det er på lager og du kan da velge å bestille dette eller ikke.</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                        </div>
-                    </div>
-                    <div class="dragArea row">
-                        <div class="form-group col" data-for="email">
-                            <input type="email" name="email" placeholder="Din e-post" data-form-field="Email" required="required" class="form-control display-7" id="email-form3-7">
-                        </div>
-                        <div class="col-auto input-group-btn"><button type="submit" class="btn btn-primary display-4">NESTE</button></div>
-                    </div>
-                </form><!---Formbuilder Form--->
+               <form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
             </div>
         </div>
     </div>
